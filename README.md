@@ -1,13 +1,19 @@
-##  learning-tdd
+## learning-tdd
 
-A simple project to practice **Test-Driven Development (TDD)** with Python and pytest.
+A simple project to practice **Test-Driven Development (TDD)** in Python with automated testing and linting.
 
-## Files
+## Features
 - `app.py` → contains the `greeting()` function  
-- `test_app.py` → contains an automated test for `greeting()`
+- `test_app.py` → pytest test for the greeting function  
+- **Linters/Formatters**:
+  - [flake8](https://flake8.pycqa.org/) for style checks
+  - [pylint](https://pylint.pycqa.org/) for static analysis
+  - [black](https://black.readthedocs.io/) for code formatting
+- **GitHub Actions CI** → runs pytest + linters automatically on every push/PR
 
-## How to run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Selma34568/learning-tdd.git
-   cd learning-tdd
+## Installation
+Clone the repository:
+```bash
+git clone https://github.com/Selma34568/learning-tdd.git
+cd learning-tdd
+
